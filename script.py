@@ -9,4 +9,4 @@ def get_traveler_location(traveler):
 
 # print(get_destination_index("Los Angeles, USA"))
 # print(get_traveler_location(test_traveler))
-print(get_destination_index(get_traveler_location(test_traveler)))
+test_destionation_index = get_destination_index(get_traveler_location(test_traveler))
