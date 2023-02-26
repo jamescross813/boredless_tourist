@@ -7,4 +7,4 @@ def get_destination_index(destination):
 def get_traveler_location(traveler):
     return traveler[1]
 
-print(get_destination_index("Los Angeles, USA"))
+# print(get_destination_index("Los Angeles, USA"))
