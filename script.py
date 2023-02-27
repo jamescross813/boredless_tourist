@@ -8,6 +8,9 @@ def get_destination_index(destination):
 def get_traveler_location(traveler):
     return traveler[1]
 
+def get_attractions():
+    
+
 # print(get_destination_index("Los Angeles, USA"))
 # print(get_traveler_location(test_traveler))
 test_destionation_index = get_destination_index(get_traveler_location(test_traveler))
