@@ -12,9 +12,9 @@ def get_attractions():
     for dest in destinations:
         attractions.append([])
     return attractions
-
+get_attractions()
 # print(get_destination_index("Los Angeles, USA"))
 # print(get_traveler_location(test_traveler))
 # test_destination_index = get_destination_index(get_traveler_location(test_traveler))
 # print(test_destination_index)
-print(get_attractions())
+print(attractions)
