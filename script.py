@@ -13,6 +13,9 @@ def get_attractions():
         attractions.append([])
     return attractions
 get_attractions()
+
+add_attraction():
+    
 # print(get_destination_index("Los Angeles, USA"))
 # print(get_traveler_location(test_traveler))
 # test_destination_index = get_destination_index(get_traveler_location(test_traveler))
