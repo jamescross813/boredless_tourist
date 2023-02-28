@@ -15,7 +15,7 @@ def get_attractions():
 get_attractions()
 
 def add_attraction(destination, attraction):
-
+    get_destination_index(destination)
 # print(get_destination_index("Los Angeles, USA"))
 # print(get_traveler_location(test_traveler))
 # test_destination_index = get_destination_index(get_traveler_location(test_traveler))
