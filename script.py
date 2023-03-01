@@ -18,9 +18,9 @@ def add_attraction(destination, attraction):
     destination_index = get_destination_index(destination)
     if destination_index >= 0:
         attractions_for_destination = attractions[destination_index]
-        return attractions_for_destination.append(attraction)
-    
-
+        attractions_for_destination.append(attraction)
+    return attractions_for_destination
+print(add_attraction("Los Angeles, USA", ['Venice Beach', ['beach']]))
 # print(get_destination_index("Los Angeles, USA"))
 # print(get_traveler_location(test_traveler))
 # test_destination_index = get_destination_index(get_traveler_location(test_traveler))
