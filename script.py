@@ -22,6 +22,8 @@ def add_attraction(destination, attraction):
     return attractions_for_destination
 
 def find_attractions(destination, interests):
+    destination_index = get_destination_index(destination)
+    attractions_in_city = attractions[destination_index]
     
 # print(get_destination_index("Los Angeles, USA"))
 # print(get_traveler_location(test_traveler))
