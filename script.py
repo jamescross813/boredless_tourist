@@ -40,8 +40,7 @@ def find_attractions(destination, interests):
     for attrac in attractions_in_city:
         attraction_tag=attrac[1]
         for int in interests:
-            print(attraction_tag)
-            if int == attraction_tag:
+            if int == attraction_tag[0]:
                 attractions_with_interest.append(attrac)
     return attractions_with_interest
 
