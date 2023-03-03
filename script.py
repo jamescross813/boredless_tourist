@@ -41,7 +41,7 @@ def find_attractions(destination, interests):
         attraction_tag=attrac[1]
         for int in interests:
             if int == attraction_tag[0]:
-                attractions_with_interest.append(attrac)
+                attractions_with_interest.append(attrac[0])
     return attractions_with_interest
 
 print(find_attractions("Los Angeles, USA", ['art']))
