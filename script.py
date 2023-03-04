@@ -44,6 +44,8 @@ def find_attractions(destination, interests):
                 attractions_with_interest.append(attrac[0])
     return attractions_with_interest
 
+get_attractions_for_traveler(traveller):
+
 print(find_attractions("Los Angeles, USA", ['art']))
 # print(get_destination_index("Los Angeles, USA"))
 # print(get_traveler_location(test_traveler))
