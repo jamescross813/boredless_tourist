@@ -39,23 +39,23 @@ def find_attractions(destination, interests):
     attractions_with_interest =[]
     for attrac in attractions_in_city:
         attraction_tag=attrac[1]
-        for int in interests:
-            if int == attraction_tag[0]:
-                attractions_with_interest.append(attrac[0])
+        # print(attrac[1])
+        for attrac_tag in attraction_tag:
+            for int in interests:
+                if int == attrac_tag:
+                    attractions_with_interest.append(attrac[0])
     return attractions_with_interest
 
 def get_attractions_for_traveler(traveler):
     traveler_destination = traveler[1]
     traveler_interests = traveler[2]
-    # print(traveler_interests)
     traveler_attractions = find_attractions(traveler_destination, traveler_interests)
     interests_string = "Hi " + traveler[0] + ", we think you'll like these places around " + traveler_destination + ": "
-    # print(traveler_attractions)
     for i in traveler_attractions:
         interests_string = interests_string + i
     return interests_string
 
-test_traveler = ['Derek Smill', 'Paris, France', ["historical site"]]
+test_traveler = ['Derek Smill', 'Paris, France', ["monument"]]
 print(get_attractions_for_traveler(test_traveler))
 # print(get_destination_index("Los Angeles, USA"))
 # print(get_traveler_location(test_traveler))
