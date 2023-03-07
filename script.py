@@ -55,8 +55,8 @@ def get_attractions_for_traveler(traveler):
         interests_string = interests_string + i
     return interests_string
 
-test_traveler = ['Derek Smill', 'Paris, France', ["monument"]]
-print(get_attractions_for_traveler(test_traveler))
+# test_traveler = ['Derek Smill', 'Paris, France', ["monument"]]
+# print(get_attractions_for_traveler(test_traveler))
 # print(get_destination_index("Los Angeles, USA"))
 # print(get_traveler_location(test_traveler))
 # test_destination_index = get_destination_index(get_traveler_location(test_traveler))
